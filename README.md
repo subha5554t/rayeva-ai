@@ -258,8 +258,8 @@ Every AI call writes to the `ai_logs` table: prompt sent, raw response, parsed o
 
 | Variable | Description | Required |
 |----------|-------------|----------|
-| `OPENAI_API_KEY` | Your OpenAI API key | ✅ |
-| `OPENAI_MODEL` | Model to use (default: `gpt-4o`) | ❌ |
+| `GROQ_API_KEY` | Your GROQAI API key | ✅ |
+| `GROQAI_MODEL` | Model to use (default: `llama-3.3-70b-versatile `) | ❌ |
 | `DB_HOST` | PostgreSQL host | ✅ |
 | `DB_PORT` | PostgreSQL port (default: 5432) | ❌ |
 | `DB_NAME` | Database name | ✅ |
